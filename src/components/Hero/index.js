@@ -5,7 +5,8 @@ import "../../assets/styles/Hero.css"
 function Hero() {
   return (
     <div className="hero-image">
-      <h1>Michelle</h1>
+      <img src={require(`../../assets/images/portfolio-logo.png`).default}></img>
+      <h1>Full Stack Developer</h1>
     </div>
   );
 }
