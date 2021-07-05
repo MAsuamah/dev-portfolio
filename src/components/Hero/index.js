@@ -12,7 +12,7 @@ function Hero() {
   React.useEffect(() => {
     const options = {
     	strings: [
-        'Hi I’m Michelle!...',
+        'Hi I’m Michelle! ...',
         'Scroll to read about me...',
         'Then check out my work and résumé...',
         'and after that...',
