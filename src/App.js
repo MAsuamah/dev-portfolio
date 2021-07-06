@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css';
 import Hero from './components/Hero';
 import About from "./components/About";
-import Navigation from "./components/Navigation";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div>
-      <Navigation></Navigation>
+      <Header></Header>
+      <Hero></Hero>
      <main>
-        <Hero></Hero>
         <About></About>
       </main>
     </div>

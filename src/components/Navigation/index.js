@@ -7,7 +7,7 @@ import "../../assets/styles/Navigation.css"
 function Navigation() {
 
   return (
-    <header>
+    <>
       <Navbar collapseOnSelect expand="lg">
         <Navbar.Brand className="my-name" href="#home">Michelle</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -20,7 +20,7 @@ function Navigation() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </header>
+    </>
   );
 }
 
