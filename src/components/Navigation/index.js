@@ -1,10 +1,12 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import "../../assets/styles/Navigation.css"
+import '../../assets/styles/Navigation.css'
 
 
 function Navigation() {
+
+/*   const { currentlySelected, setCurrentlySelected } = props; */
 
   return (
     <>

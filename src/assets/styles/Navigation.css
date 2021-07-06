@@ -19,6 +19,8 @@
   background-image: url("../../assets/images/bars-solid.svg") !important;
 }
 
-
+.navActive {
+  color: #F92F94;
+}
 
 

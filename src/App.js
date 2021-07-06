@@ -1,14 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
-import Hero from './components/Hero';
-import About from "./components/About";
-import Header from "./components/Header";
+import Header from './components/Header';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
 
 function App() {
+
+/*   const [currentlySelected, setCurrentlySelected] = useState('about');
+
+  const displayTab = () => {
+		switch (currentlySelected) {
+			case 'portfolio':
+				return <Portfolio />;
+			case 'contact':
+				return <Contact />;
+			case 'resume':
+				return <Resume />;
+			default:
+				return null;
+		}
+	}; */
+
   return (
     <div>
       <Header></Header>
-      <Hero></Hero>
      <main>
         <About></About>
       </main>
