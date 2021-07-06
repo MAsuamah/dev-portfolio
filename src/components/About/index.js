@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 function About() {
   return (
-    <Fade bottom>
+    <Fade>
       <section className="about">
         <div className="inner-about">
           <img src={require(`../../assets/images/geo-port.png`).default}></img>
