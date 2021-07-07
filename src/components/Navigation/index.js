@@ -4,9 +4,9 @@ import Nav from 'react-bootstrap/Nav'
 import '../../assets/styles/Navigation.css'
 
 
-function Navigation() {
+function Navigation(props) {
 
-/*   const { currentlySelected, setCurrentlySelected } = props; */
+  const tabs = ['About Me', 'Portfolio', 'Resume', 'Contact'];
 
   return (
     <>
@@ -15,10 +15,16 @@ function Navigation() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto options">
-            <Nav.Link href="#about">About Me</Nav.Link>
-            <Nav.Link href="#projects">Portfolio</Nav.Link>
-            <Nav.Link href="#contact">Resume</Nav.Link>
-            <Nav.Link href="#resume">Contact</Nav.Link>
+            {tabs.map(tab => (
+            <Nav.Link 
+              href={'#' + tab.toLowerCase()} 
+              key={tab} 
+              onClick={() => props.handlePageChange(tab)}
+              className={props.currentPage === tab ? 'navActive' : 'navInactive'}
+            >
+              {tab}
+            </Nav.Link>
+            ))} 
           </Nav>
         </Navbar.Collapse>
       </Navbar>

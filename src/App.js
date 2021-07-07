@@ -1,33 +1,35 @@
-import React, { useState } from 'react';
 import './App.css';
-import Header from './components/Header';
+import React, { useState } from 'react';
+import Header from './components/Navigation';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
+import Contact from './components/Contact';
 
-function App() {
+function App(props) {
 
-/*   const [currentlySelected, setCurrentlySelected] = useState('about');
+  const [currentPage, handlePageChange] = useState('About Me');
 
-  const displayTab = () => {
-		switch (currentlySelected) {
-			case 'portfolio':
-				return <Portfolio />;
-			case 'contact':
-				return <Contact />;
-			case 'resume':
-				return <Resume />;
-			default:
-				return null;
-		}
-	}; */
-
+    // The renderPage method uses a switch statement to render the appropriate current page
+    const renderPage = () => {
+      switch (currentPage) {
+        case 'Portfolio':
+          return <Portfolio />;
+        case 'Resume':
+          return <Resume />;
+        case 'Contact':
+          return <Contact />;
+        default:
+          return <About />;
+      }
+    };
+  
   return (
     <div>
-      <Header></Header>
-     <main>
-        <About></About>
-      </main>
+      <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
+        <main>
+          <div>{renderPage(currentPage)}</div>
+        </main>
     </div>
   );
 }
