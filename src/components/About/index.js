@@ -36,7 +36,7 @@ function About() {
   return (
     <div>
       <div className="hero-image">
-        <img src={require(`../../assets/images/portfolio-logo.png`).default}></img>
+        <img className="port-logo" src={require(`../../assets/images/portfolio-logo.png`).default}></img>
         <Fade delay={1000}>
         <h1>Full Stack</h1>
         </Fade>

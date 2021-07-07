@@ -14,11 +14,11 @@ h1 {
   margin-left: 70px;
 }
 
-img {
-  height: 250px;
-  margin-right: 10px;
-  margin-left: 50px;
-  margin-top: 80px;
+.port-logo {
+  height: 250px !important;
+  margin-right: 10px !important;
+  margin-left: 50px !important;
+  margin-top: 80px !important;
 }
 
 .type-wrap {

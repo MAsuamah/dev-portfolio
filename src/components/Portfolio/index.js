@@ -17,7 +17,7 @@ function Portfolio() {
       <div className="portfolio">
         <div class="grid">
             <figure class="effect-oscar">
-              <img src="https://tympanus.net/Development/HoverEffectIdeas/img/9.jpg" alt="img09"/>
+              <img className="icon" src="https://tympanus.net/Development/HoverEffectIdeas/img/9.jpg" alt="img09"/>
               <figcaption>
                 <h2>Warm <span>Oscar</span></h2>
                 <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
@@ -25,7 +25,7 @@ function Portfolio() {
               </figcaption>     
             </figure>
             <figure class="effect-oscar">
-              <img src="https://tympanus.net/Development/HoverEffectIdeas/img/10.jpg" alt="img10"/>
+              <img className="icon" src="https://tympanus.net/Development/HoverEffectIdeas/img/10.jpg" alt="img10"/>
               <figcaption>
                 <h2>Warm <span>Oscar</span></h2>
                 <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
@@ -33,7 +33,7 @@ function Portfolio() {
               </figcaption>     
             </figure>
             <figure class="effect-oscar">
-              <img src="https://tympanus.net/Development/HoverEffectIdeas/img/10.jpg" alt="img10"/>
+              <img className="icon" src="https://tympanus.net/Development/HoverEffectIdeas/img/10.jpg" alt="img10"/>
               <figcaption>
                 <h2>Warm <span>Oscar</span></h2>
                 <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
