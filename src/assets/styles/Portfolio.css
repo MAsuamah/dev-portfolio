@@ -140,7 +140,7 @@ figure.effect-oscar img {
 
 figure.effect-oscar figcaption {
   padding: 3em;
-  background-color: rgba(58,52,42,0.7);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   -webkit-transition: background-color 0.35s;
   transition: background-color 0.35s;
 }
@@ -192,7 +192,11 @@ figure.effect-oscar:hover img {
   opacity: 0.4;
 }
 
-
+@media only screen and (max-width: 1078px) {
+  .grid figure {
+    width: 48%;
+  }
+}
 
 
 
