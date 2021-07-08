@@ -1,18 +1,15 @@
-.background-img {
-  background-image: url(../images/black-hero.png);
-  height: 100vh;
-  background-size: cover;
-
-}
-
 .resume {
   background-color: black;
+  background-image: url(../images/black-hero-graphic.png);
+  background-attachment: fixed;
+  height: 100vh;
+  background-size: cover;
 }
 
 .skills {
   margin-left: 150px;
   position: relative;
-  bottom: 300px;
+  top: 200px;
 }
 
 .skills h1 {
@@ -29,33 +26,6 @@
   padding: 10px;
 }
 
-.download-wrap{
-  height: 106px;
-  border-radius: 15px;
-  width: 330px;
-  padding: 1rem;
-  position: relative;
-  left: 160px;
-  top: 170px;
-  background: linear-gradient(to right, red, purple);
-  padding: 3px;
-  margin: 10px;
-}
-
-.download {
-  background: black;
-  padding: 30px;
-  height: 100px;
-  border-radius: 15px;
-  text-decoration: none !important;
-}
-
-.download h3 {
-  color: white;
-  text-decoration: none;
-  font-family: 'Kanit', sans-serif;
-}
-
 .border-gradient {
   border: 10px solid;
   border-image-slice: 1;
@@ -66,8 +36,27 @@
   padding-bottom: 90px;
   color: white;
   font-family: 'Kanit', sans-serif;
+}
+
+.skill-gradient {
   height: 350px;
   width: 350px;
+}
+
+.resume-gradient {
+  padding: 1em;
+}
+
+.resume-container {
+  width: 350px;
+  position: relative;
+  left: 165px;
+  top: 80px;
+}
+
+#download-link {
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .border-gradient-purple {
@@ -76,6 +65,7 @@
 
 .skill-box {
   margin: 7px;
+  background-color: black;
 }
 
 

@@ -44,7 +44,7 @@ function Portfolio() {
             <img className="icon" src={require(`../../assets/images/AdobeStock_127928024.jpeg`).default}></img>
             <figcaption>
               <h2>Super <span>Hip</span> <br />
-                <a href="https://tech-cup-blog.herokuapp.com/" target="_blank"><FaLink /></a>
+                <a href="https://hmbrgr-hlpr.herokuapp.com/" target="_blank"><FaLink /></a>
                 <a href="https://github.com/fraudwheeldrive/Hmbrgr-Hlpr" target="_blank"><FaGithub /></a>
               </h2>
               <p>MySQL | Express.js | Node.js</p>
@@ -78,10 +78,9 @@ function Portfolio() {
             <figcaption>
               <h2>Shop <span>Shop</span> <br />
                 <a href="https://masuamah-shop-shop.herokuapp.com/" target="_blank"><FaLink /></a>
-                <a href="https://github.com/MAsuamah/shop-shop" target="_blank"><FaGithub /></a>
+                <a href="https://github.com/MAsuamah/shop-shop" target="_blank"><FaGithub /></a>        
               </h2>
               <p>MongDB | Express.js. | Node.js | React.js</p>
-              <a href="#">View more</a>
             </figcaption>     
           </figure>
 
