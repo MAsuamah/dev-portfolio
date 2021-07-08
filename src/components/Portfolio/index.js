@@ -2,9 +2,11 @@ import React from 'react';
 import '../../assets/styles/Portfolio.css'
 import { FaLink } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
+import Fade from 'react-reveal/Fade';
 
 function Portfolio() {
   return (
+    <Fade delay={100}>
     <section>
       <div className="quote">
         <h3>love of learning</h3>
@@ -87,6 +89,7 @@ function Portfolio() {
           
       </div>
     </section>
+    </Fade>
   );
 }
 export default Portfolio;

@@ -11,7 +11,7 @@ function Navigation(props) {
   return (
     <>
       <Navbar collapseOnSelect expand="lg">
-        <Navbar.Brand className="my-name" href="#home">Michelle</Navbar.Brand>
+        <Navbar.Brand className="my-name" onClick={() => props.handlePageChange('About Me')}>Michelle</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto options">

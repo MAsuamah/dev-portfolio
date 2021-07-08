@@ -2,11 +2,14 @@ import React from 'react';
 import '../../assets/styles/Resume.css'
 import { SiJavascript } from 'react-icons/si';
 import { TiArrowDownOutline } from 'react-icons/ti';
+import Fade from 'react-reveal/Fade';
+
 
 function Resume() {
   
 
   return (
+    
     
     <section className="resume">
 
@@ -25,11 +28,16 @@ function Resume() {
 
       {/* Download Resume */}
     
-      <a className="download" href={require("../../assets/files/Michelle-AsuamahResume.pdf" ).default} download>
-        <div className="border-wrap download-wrap"><div class="download">
-            <h3>Download Resume<TiArrowDownOutline style={{ fill: "url(#red-purple-gradient)" }}/></h3>
-        </div></div>
-      </a>
+      <div className="background-img">
+        <a className="download" href={require("../../assets/files/Michelle-AsuamahResume.pdf" ).default} download>
+          <Fade>
+            <div className="border-wrap download-wrap"><div class="download">
+                <h3>Download Resume<TiArrowDownOutline style={{ fill: "url(#red-purple-gradient)" }}/></h3>
+            </div></div>
+            </Fade>
+        </a>
+      </div>
+      
 
       {/* Skills Section*/}
       
@@ -43,51 +51,64 @@ function Resume() {
 
         <div className="skills-container">
 
-          <div className="skill-box">
-            <h2 class="border-gradient border-gradient-purple">
-            <SiJavascript style={{ fill: "url(#red-purple-gradient)" }} /> <br />
-              JavaScript
-            </h2>
-          </div>
+          <Fade>
+            <div className="skill-box">
+              <h2 class="border-gradient border-gradient-purple">
+              <SiJavascript style={{ fill: "url(#red-purple-gradient)" }} /> <br />
+                JavaScript
+              </h2>
+            </div>
+          </Fade>
 
-          <div className="skill-box">
-            <h2 class="border-gradient border-gradient-purple">
-            <SiJavascript style={{ fill: "url(#red-purple-gradient)" }} /> <br />
-              JavaScript
-            </h2>
-          </div>
+          <Fade>
+            <div className="skill-box">
+              <h2 class="border-gradient border-gradient-purple">
+              <SiJavascript style={{ fill: "url(#red-purple-gradient)" }} /> <br />
+                JavaScript
+              </h2>
+            </div>
+          </Fade>
 
-          <div className="skill-box">
-            <h2 class="border-gradient border-gradient-purple">
-            <SiJavascript style={{ fill: "url(#red-purple-gradient)" }} /> <br />
-              JavaScript
-            </h2>
-          </div>
+          <Fade>
+            <div className="skill-box">
+              <h2 class="border-gradient border-gradient-purple">
+              <SiJavascript style={{ fill: "url(#red-purple-gradient)" }} /> <br />
+                JavaScript
+              </h2>
+            </div>
+          </Fade>
 
-          <div className="skill-box">
-            <h2 class="border-gradient border-gradient-purple">
-            <SiJavascript style={{ fill: "url(#red-purple-gradient)" }} /> <br />
-              JavaScript
-            </h2>
-          </div>
+          <Fade>
+            <div className="skill-box">
+              <h2 class="border-gradient border-gradient-purple">
+              <SiJavascript style={{ fill: "url(#red-purple-gradient)" }} /> <br />
+                JavaScript
+              </h2>
+            </div>
+          </Fade>
 
-          <div className="skill-box">
-            <h2 class="border-gradient border-gradient-purple">
-            <SiJavascript style={{ fill: "url(#red-purple-gradient)" }} /> <br />
-              JavaScript
-            </h2>
-          </div>
+          <Fade>
+            <div className="skill-box">
+              <h2 class="border-gradient border-gradient-purple">
+              <SiJavascript style={{ fill: "url(#red-purple-gradient)" }} /> <br />
+                JavaScript
+              </h2>
+            </div>
+          </Fade>
 
-          <div className="skill-box">
-            <h2 class="border-gradient border-gradient-purple">
-            <SiJavascript style={{ fill: "url(#red-purple-gradient)" }} /> <br />
-              JavaScript
-            </h2>
-          </div>
+          <Fade>
+            <div className="skill-box">
+              <h2 class="border-gradient border-gradient-purple">
+              <SiJavascript style={{ fill: "url(#red-purple-gradient)" }} /> <br />
+                JavaScript
+              </h2>
+            </div>
+          </Fade>
 
         </div>
       </div>
     </section>
+    
   );
 }
 export default Resume;

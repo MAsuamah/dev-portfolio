@@ -35,6 +35,7 @@ function About() {
 
   return (
     <div>
+      
       <div className="hero-image">
         <img className="port-logo" src={require(`../../assets/images/portfolio-logo.png`).default}></img>
         <Fade>
@@ -49,6 +50,7 @@ function About() {
         </div>
         </Fade>
       </div>
+
       <Fade>
         <section className="about" id="about">
           <div className="inner-about">
