@@ -1,17 +1,17 @@
 .resume {
-  background-color: black;
+  background-color:#222;
 }
 
-
 .skills {
-  margin-top: 150px;
+  margin-left: 150px;
 }
 
 .skills h1 {
   color: white;
   position: relative;
-  z-index: 10;
-  margin-bottom: -52px;
+  z-index: 1;
+  top: 60px;
+  overflow-y: hidden;
 }
 
 .skills-container {
@@ -20,43 +20,52 @@
   padding: 10px;
 }
 
-.border-wrap {
-  padding: 1rem;
-  position: relative;
-  background: linear-gradient(to right, red, purple);
-  padding: 3px;
-  margin: 10px;
-}
-
-.javascript {
-  background: #222;
-  color: white;
-  padding: 100px;
-  text-align: center;
-  font-size: 50px;
-  padding-top: 80px;
-  font-family: 'Kanit', sans-serif;
-  font-weight: 100px;
-}
-
 .download-wrap{
   height: 106px;
   border-radius: 15px;
   width: 330px;
-  float: right;
+  padding: 1rem;
+  position: relative;
+  left: 160px;
+  background: linear-gradient(to right, red, purple);
+  padding: 3px;
+  margin: 10px;
 }
 
 .download {
   background: #222;
   padding: 30px;
   height: 100px;
-  float: right;
   border-radius: 15px;
+  text-decoration: none !important;
 }
 
-.download a {
+.download h3 {
   color: white;
   text-decoration: none;
   font-family: 'Kanit', sans-serif;
 }
+
+.border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  text-align: center;
+  padding: 50px;
+  padding-top: 100px;
+  padding-bottom: 90px;
+  color: white;
+  font-family: 'Kanit', sans-serif;
+  height: 350px;
+  width: 350px;
+}
+
+.border-gradient-purple {
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+
+.skill-box {
+  margin: 7px;
+}
+
 
