@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Pangolin&display=swap');
+
 .resume {
-  background-color: black;
-  background-image: url(../images/black-hero-graphic.png);
-  background-attachment: fixed;
+  background: #222;
+  background-attachment: local;
   height: 100vh;
-  background-size: cover;
+  background-size: 1450px 900px;
+
 }
 
 .skills {
   margin-left: 150px;
   position: relative;
-  top: 200px;
+  top: 180px;
 }
 
 .skills h1 {
@@ -26,6 +28,16 @@
   padding: 10px;
 }
 
+.blurb {
+  color: white;
+  text-align: center;
+  font-family: 'Pangolin', cursive;
+  font-size: 30px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
 .border-gradient {
   border: 10px solid;
   border-image-slice: 1;
@@ -39,7 +51,7 @@
 }
 
 .skill-gradient {
-  height: 350px;
+  height: 340px;
   width: 350px;
 }
 
@@ -50,8 +62,8 @@
 .resume-container {
   width: 350px;
   position: relative;
-  left: 165px;
-  top: 80px;
+  top: 130px;
+  margin: 0 auto;
 }
 
 #download-link {
@@ -59,13 +71,53 @@
   font-size: 20px;
 }
 
-.border-gradient-purple {
-  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
-}
-
 .skill-box {
   margin: 7px;
-  background-color: black;
+  background-color: #222;
 }
+
+.icon {
+  font-size: 70px;
+}
+
+.icon-smaller {
+  font-size: 55px;
+}
+
+.small-box {
+  padding-top: 125px;
+}
+
+.hide {
+  overflow-y: hidden;
+}
+
+.space-icon {
+  margin-left: 10px;
+}
+
+/*BORDER GRADIENTS*/
+
+.border-gradient-pink-yellow {
+  border-image-source: linear-gradient(to right, #F5C15D, #F92F94 );
+}
+
+.border-gradient-aqua {
+  border-image-source: linear-gradient(to left, chartreuse, aqua );
+}
+
+.border-gradient-violet {
+  border-image-source: linear-gradient(to left, yellow, mediumvioletred );
+}
+
+.border-gradient-red {
+  border-image-source: linear-gradient(to left, red, purple );
+}
+
+.border-gradient-blue {
+  border-image-source: linear-gradient(to right, blue, orangered );
+}
+
+
 
 
