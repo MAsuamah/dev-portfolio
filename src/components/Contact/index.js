@@ -47,7 +47,7 @@ function Contact() {
       <section id="contact-container">
         <div className="row">
           <div id="left-contact" className="col-md-6">
-            <h3 id="hi">Say Hi <span class="wave">👋</span></h3>
+            <h3 id="hi">Say Hi <span className="wave">👋</span></h3>
             <Form>
               <Form.Group controlId="exampleForm.ControlInput1">
                 <Form.Control type="name" placeholder="Name" 

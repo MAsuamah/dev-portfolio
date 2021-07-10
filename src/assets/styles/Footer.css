@@ -1,0 +1,32 @@
+
+footer {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  margin-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+footer h3 {
+  font-size: 30px;
+  font-weight: 100;
+} 
+
+footer p {
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.wave {
+  font-size: 25px;
+}
+
+.connect-icons a {
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+  padding-top: 0;
+  
+}

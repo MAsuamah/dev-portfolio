@@ -7,7 +7,6 @@ import { TiArrowDownOutline } from 'react-icons/ti';
 import { ImHtmlFive } from 'react-icons/im';
 import { FaReact, FaGitAlt, FaNodeJs } from 'react-icons/fa';
 import { BsGear } from 'react-icons/bs';
-import { RiTeamLine } from 'react-icons/ri';
 
 
 function Resume() {
@@ -15,8 +14,6 @@ function Resume() {
   return (
      
     <section className="resume">
-
-   
 
         {/* SVG painter for Icons*/}
 

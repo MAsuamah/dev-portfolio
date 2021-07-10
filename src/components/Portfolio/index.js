@@ -19,8 +19,8 @@ function Portfolio() {
       </div>
       <div className="portfolio">
         
-        <div class="grid">
-          <figure class="effect-oscar">
+        <div className="grid">
+          <figure className="effect-oscar">
           <img className="icon" src={require(`../../assets/images/zengxiao-lin-fBZsl463vJQ-unsplash.jpg`).default}></img>
             <figcaption>
               <h2>Tech <span>Cup</span> <br />
@@ -30,7 +30,7 @@ function Portfolio() {
               <p>MySQL | Express.js | Node.js </p>
             </figcaption>     
           </figure>
-          <figure class="effect-oscar">
+          <figure className="effect-oscar">
             <img className="icon" src={require(`../../assets/images/peinge-nakale-ie0YbSKO0fw-unsplash-copy.jpg`).default}></img>
             <figcaption>
               <h2>Weather <span>App</span> <br />
@@ -40,7 +40,7 @@ function Portfolio() {
               <p>JavaScript</p>
             </figcaption>     
           </figure>
-          <figure class="effect-oscar">
+          <figure className="effect-oscar">
             <img className="icon" src={require(`../../assets/images/AdobeStock_127928024.jpeg`).default}></img>
             <figcaption>
               <h2>Super <span>Hip</span> <br />
@@ -52,8 +52,8 @@ function Portfolio() {
           </figure>
         </div>
 
-        <div class="grid">
-          <figure class="effect-oscar">
+        <div className="grid">
+          <figure className="effect-oscar">
           <img className="icon" src={require(`../../assets/images/catherine-hughes-PkEQHH6R7Eg-unsplash.jpg`).default}></img>
             <figcaption>
               <h2>Coding <span>Quiz</span> <br />
@@ -63,7 +63,7 @@ function Portfolio() {
               <p>JavaScript</p>
             </figcaption>     
           </figure>
-          <figure class="effect-oscar">
+          <figure className="effect-oscar">
           <img className="icon" src={require(`../../assets/images/budget.png`).default}></img>
             <figcaption>
               <h2>Trackstar <span>Budget</span> <br />
@@ -73,7 +73,7 @@ function Portfolio() {
               <p>Progressive Web Application</p>
             </figcaption>     
           </figure>
-          <figure class="effect-oscar">
+          <figure className="effect-oscar">
             <img className="icon" src={require(`../../assets/images/ecommerce.png`).default}></img>
             <figcaption>
               <h2>Shop <span>Shop</span> <br />

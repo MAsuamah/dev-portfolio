@@ -5,6 +5,8 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
+
 
 function App(props) {
 
@@ -29,7 +31,8 @@ function App(props) {
       <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
         <main>
           <div>{renderPage(currentPage)}</div>
-        </main>
+        </main> 
+      <Footer /> 
     </div>
   );
 }
