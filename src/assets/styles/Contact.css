@@ -47,13 +47,18 @@ form {
 }
 
 #msg-btn {
+  background-color: #f5c15d;
   font-size: 20px;
   font-weight: 600;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 30px;
+  margin-bottom: 10px;
   padding-left: 30px;
-}
+  border-radius: 30px;
+  border-style: none;
+  color: white;
+  box-shadow: 0px 5px 5px  rgb(212 143 9 / 25%);}
 
 #right-contact-text {
   position: absolute;
@@ -61,7 +66,6 @@ form {
   font-size: 20px;
   font-family: 'Lato', sans-serif;
   overflow: visible;
-
 }
 
 #contact-bolder {
@@ -70,10 +74,17 @@ form {
 
 #right-contact-text a {
   text-decoration: none;
-  background-color: #ffc107;
+  background-color: #f5c15d;
   font-weight: 600;
   color: black;
   border-radius: 30px;
   padding: 20px;
+  color: white;
+  box-shadow: 0px 23px 28px -24px rgb(212 143 9 / 65%);
+}
+
+.error-text {
+  font-weight: 600;
+  color: red;
 }
 
