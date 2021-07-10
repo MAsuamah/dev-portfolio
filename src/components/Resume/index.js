@@ -43,13 +43,13 @@ function Resume() {
           </linearGradient>
         </svg>
 
-  
-
           {/* Download Resume */}
 
-          <p className="blurb">
-            I use the skills below to build web applications and improve the user experience. It’s a non-exhaustive list as I’m always looking to add more tools to my developer’s toolkit. Need my skills in writing? Download a copy of my resume.
-          </p>
+          <Fade>
+            <p className="blurb">
+              I use the skills below to build web applications and improve the user experience. It’s a non-exhaustive list as I’m always looking to add more tools to my developer’s toolkit. Need my skills in writing? Download a copy of my resume.
+            </p>
+          </Fade>
         
           <div className="resume-container">
             <a id="download-link" href={require("../../assets/files/Michelle-AsuamahResume.pdf" ).default} download>

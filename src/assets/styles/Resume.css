@@ -2,14 +2,11 @@
 
 .resume {
   background: #222;
-  height: 2200px;
-  overflow-x: visible;
 }
 
 .skills {
   margin-left: 150px;
-  position: relative;
-  top: 190px;
+  margin-top: 190px;
 }
 
 .skills h1 {
