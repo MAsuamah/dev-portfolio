@@ -10,6 +10,11 @@
 }
 
 .skills h1 {
+  font-family: 'Kanit', sans-serif;
+  font-size: 100px;
+  font-weight: 800;
+  margin-left: 70px;
+  overflow-y: hidden;
   color: white;
   position: relative;
   z-index: 1;
@@ -117,6 +122,41 @@
   border-image-source: linear-gradient(to left, indianred, lightblue );
 }
 
+/* MEDIA QUERIES */
+@media (max-width: 576px) { 
+  .blurb {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .skills-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .resume-container {
+    width: 300px;
+  }
+
+  .skills {
+    margin-left: 0;
+  }
+
+  .skills h1 {
+    font-size: 50px;
+    margin-left: 30px;
+  }
+  
+  .skill-gradient {
+    height: 240px;
+    width: 250px;
+  }
+
+  .border-gradient {
+    padding-top: 40px;
+    overflow-y: hidden;
+  }
+}
 
 
 

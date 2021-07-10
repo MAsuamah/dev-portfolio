@@ -44,9 +44,10 @@ function Contact() {
 
   return (
     <Fade>
+      <div className="mobile-contact">
       <section id="contact-container">
         <div className="row">
-          <div id="left-contact" className="col-md-6">
+          <div id="left-contact" className="col-md-6 col-sm-12">
             <h3 id="hi">Say Hi <span className="wave">👋</span></h3>
             <Form>
               <Form.Group controlId="exampleForm.ControlInput1">
@@ -75,7 +76,7 @@ function Contact() {
               <Button id="msg-btn" >Submit</Button>{' '}   
             </Form>
           </div>
-          <div id="right-contact" className="col-md-6">
+          <div id="right-contact" className="col-md-6 col-sm-12">
             <div id="right-contact-text" className="ml-auto">
               <p>
                 Thanks for visiting my page <br />
@@ -90,6 +91,7 @@ function Contact() {
           </div>
         </div>
       </section>
+      </div>
     </Fade>
   );
 }

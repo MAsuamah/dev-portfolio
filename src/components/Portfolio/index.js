@@ -18,71 +18,75 @@ function Portfolio() {
         <p id="author">-Émilie du Châtelet & Anthony J. D'Angelo</p>
       </div>
       <div className="portfolio">
-        
-        <div className="grid">
-          <figure className="effect-oscar">
-          <img className="icon" src={require(`../../assets/images/zengxiao-lin-fBZsl463vJQ-unsplash.jpg`).default}></img>
-            <figcaption>
-              <h2>Tech <span>Cup</span> <br />
-                <a href="https://tech-cup-blog.herokuapp.com/" target="_blank"><FaLink /></a>
-                <a href="https://github.com/MAsuamah/tech-cup-blog" target="_blank"><FaGithub /></a>
-              </h2>
-              <p>MySQL | Express.js | Node.js </p>
-            </figcaption>     
-          </figure>
-          <figure className="effect-oscar">
-            <img className="icon" src={require(`../../assets/images/peinge-nakale-ie0YbSKO0fw-unsplash-copy.jpg`).default}></img>
-            <figcaption>
-              <h2>Weather <span>App</span> <br />
-                <a href="https://masuamah.github.io/weather-dashboard/" target="_blank"><FaLink /></a>
-                <a href="https://github.com/MAsuamah/weather-dashboard" target="_blank"><FaGithub /></a>
-              </h2>
-              <p>JavaScript</p>
-            </figcaption>     
-          </figure>
-          <figure className="effect-oscar">
-            <img className="icon" src={require(`../../assets/images/AdobeStock_127928024.jpeg`).default}></img>
-            <figcaption>
-              <h2>Super <span>Hip</span> <br />
-                <a href="https://hmbrgr-hlpr.herokuapp.com/" target="_blank"><FaLink /></a>
-                <a href="https://github.com/fraudwheeldrive/Hmbrgr-Hlpr" target="_blank"><FaGithub /></a>
-              </h2>
-              <p>MySQL | Express.js | Node.js</p>
-            </figcaption>     
-          </figure>
-        </div>
 
-        <div className="grid">
-          <figure className="effect-oscar">
-          <img className="icon" src={require(`../../assets/images/catherine-hughes-PkEQHH6R7Eg-unsplash.jpg`).default}></img>
-            <figcaption>
-              <h2>Coding <span>Quiz</span> <br />
-                <a href="https://masuamah.github.io/coding-quiz/ " target="_blank"><FaLink /></a>
-                <a href="https://github.com/MAsuamah/coding-quiz" target="_blank"><FaGithub /></a>
-              </h2>
-              <p>JavaScript</p>
-            </figcaption>     
-          </figure>
-          <figure className="effect-oscar">
-          <img className="icon" src={require(`../../assets/images/budget.png`).default}></img>
-            <figcaption>
-              <h2>Trackstar <span>Budget</span> <br />
-                <a href="https://trackstar-budget.herokuapp.com/" target="_blank"><FaLink /></a>
-                <a href="https://github.com/MAsuamah/trackstar-budget" target="_blank"><FaGithub /></a>
-              </h2>
-              <p>Progressive Web Application</p>
-            </figcaption>     
-          </figure>
-          <figure className="effect-oscar">
-            <img className="icon" src={require(`../../assets/images/ecommerce.png`).default}></img>
-            <figcaption>
-              <h2>Shop <span>Shop</span> <br />
-                <a href="https://masuamah-shop-shop.herokuapp.com/" target="_blank"><FaLink /></a>
-                <a href="https://github.com/MAsuamah/shop-shop" target="_blank"><FaGithub /></a>        
-              </h2>
-              <p>MongDB | Express.js. | Node.js | React.js</p>
-            </figcaption>     
-          </figure>
+        <div className="outer-grid">
+        
+          <div className="grid">
+            <figure className="effect-oscar">
+            <img className="icon" src={require(`../../assets/images/zengxiao-lin-fBZsl463vJQ-unsplash.jpg`).default}></img>
+              <figcaption>
+                <h2>Tech <span>Cup</span> <br />
+                  <a href="https://tech-cup-blog.herokuapp.com/" target="_blank"><FaLink /></a>
+                  <a href="https://github.com/MAsuamah/tech-cup-blog" target="_blank"><FaGithub /></a>
+                </h2>
+                <p>MySQL | Express.js | Node.js </p>
+              </figcaption>     
+            </figure>
+            <figure className="effect-oscar">
+              <img className="icon" src={require(`../../assets/images/peinge-nakale-ie0YbSKO0fw-unsplash-copy.jpg`).default}></img>
+              <figcaption>
+                <h2>Weather <span>App</span> <br />
+                  <a href="https://masuamah.github.io/weather-dashboard/" target="_blank"><FaLink /></a>
+                  <a href="https://github.com/MAsuamah/weather-dashboard" target="_blank"><FaGithub /></a>
+                </h2>
+                <p>JavaScript</p>
+              </figcaption>     
+            </figure>
+            <figure className="effect-oscar">
+              <img className="icon" src={require(`../../assets/images/AdobeStock_127928024.jpeg`).default}></img>
+              <figcaption>
+                <h2>Super <span>Hip</span> <br />
+                  <a href="https://hmbrgr-hlpr.herokuapp.com/" target="_blank"><FaLink /></a>
+                  <a href="https://github.com/fraudwheeldrive/Hmbrgr-Hlpr" target="_blank"><FaGithub /></a>
+                </h2>
+                <p>MySQL | Express.js | Node.js</p>
+              </figcaption>     
+            </figure>
+          </div>
+
+          <div className="grid">
+            <figure className="effect-oscar">
+            <img className="icon" src={require(`../../assets/images/catherine-hughes-PkEQHH6R7Eg-unsplash.jpg`).default}></img>
+              <figcaption>
+                <h2>Coding <span>Quiz</span> <br />
+                  <a href="https://masuamah.github.io/coding-quiz/ " target="_blank"><FaLink /></a>
+                  <a href="https://github.com/MAsuamah/coding-quiz" target="_blank"><FaGithub /></a>
+                </h2>
+                <p>JavaScript</p>
+              </figcaption>     
+            </figure>
+            <figure className="effect-oscar">
+            <img className="icon" src={require(`../../assets/images/budget.png`).default}></img>
+              <figcaption>
+                <h2>Trackstar <span>Budget</span> <br />
+                  <a href="https://trackstar-budget.herokuapp.com/" target="_blank"><FaLink /></a>
+                  <a href="https://github.com/MAsuamah/trackstar-budget" target="_blank"><FaGithub /></a>
+                </h2>
+                <p>Progressive Web Application</p>
+              </figcaption>     
+            </figure>
+            <figure className="effect-oscar">
+              <img className="icon" src={require(`../../assets/images/ecommerce.png`).default}></img>
+              <figcaption>
+                <h2>Shop <span>Shop</span> <br />
+                  <a href="https://masuamah-shop-shop.herokuapp.com/" target="_blank"><FaLink /></a>
+                  <a href="https://github.com/MAsuamah/shop-shop" target="_blank"><FaGithub /></a>        
+                </h2>
+                <p>MongDB | Express.js. | Node.js | React.js</p>
+              </figcaption>     
+            </figure>
+
+          </div>
 
         </div>
           

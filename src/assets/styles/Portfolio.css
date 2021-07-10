@@ -191,12 +191,49 @@ figure.effect-oscar:hover img {
   opacity: 0.4;
 }
 
+/*Media Queries */
+
 @media only screen and (max-width: 1078px) {
+  .grid {
+    overflow: visible;
+  }
+  
   .grid figure {
     width: 48%;
   }
 }
 
+@media only screen and (max-width: 667px) {
+  .grid figure {
+    width: 80%;
+  }
+
+  .quote {
+    text-align: left;
+    padding-left: 5px;
+  }
+
+  .quote h3 {
+    font-size: 30px;
+  }
+
+  .quote p {
+    font-size: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .portfolio {
+    padding-left: 25px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .portfolio {
+    padding-left: 0px;
+  }
+}
 
 
 

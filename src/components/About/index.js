@@ -35,20 +35,25 @@ function About() {
 
   return (
     <div>
-      
+       
       <div className="hero-image">
         <img className="port-logo" src={require(`../../assets/images/portfolio-logo.png`).default}></img>
-        <Fade>
-        <h1>Full Stack</h1>
-        </Fade>
-        <Fade delay={1000}>
-        <h1>Developer</h1>
-        </Fade>
-        <Fade delay={2000}>
-        <div className="type-wrap">
-          <span style={{ whiteSpace: 'pre' }} ref={el} />
+        
+        <div className = "all-hero-text">
+          <Fade>    
+          <h1 className="hero-tagline">Full Stack</h1>
+          </Fade>
+
+          <Fade delay={1000}>
+          <h1 className="hero-tagline">Developer</h1>
+          </Fade>
+
+          <Fade delay={2000}>
+          <div className="type-wrap">
+            <span style={{ whiteSpace: 'pre' }} ref={el} />
+          </div> 
+          </Fade>
         </div>
-        </Fade>
       
 
         <Fade>
