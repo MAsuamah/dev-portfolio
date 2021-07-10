@@ -56,16 +56,19 @@ function About() {
             <div className="inner-about">
               <img src={require(`../../assets/images/geo-port.png`).default}></img>
               <p> 
-                Here’s a bit about me…I am a highly self-motivated developer with an imminent certificate in full-stack web development. In previous studies I earned a Bachelor’s degree in Psychology and Human Resources, and my all-time favourite school subject is …math!
+                First off, thanks for visiting my page. I am a highly self-motivated developer with a certificate in full-stack web development from the University of Toronto. I also have a Bachelor’s in Psychology and Employment Relations.
               </p>
               <p>
-                I’ve always loved problem-solving and logical reasoning, and I've been searching for a way to introduce that back into my everyday life, especially my career. It took me a while, but I’m so happy I found coding because I feel it really fuels my passion for solving problems. I also consider myself a life-long learner, and I’m always eager to build and create. Hence, learning how to build web applications has been a fulfilling journey for me so far.
+                I’ve always loved problem-solving and logical reasoning (my fav subject is Math!), and I've been searching for a way to introduce that back into my everyday life, especially my career. I'm happy to say coding really fuels my passion for solving problems.
+              </p>
+              <p> 
+                I love blending my creativity and ability to quickly grasp concepts so that I can build applications that provide a remarkable user experience. I’m also able to apply these skills in team settings like when I worked with a small team to develop a CMS style restaurant application, that allows chain restaurant owners to manage their many restaurant locations.
               </p>
               <p>
-                My current technological skills include frontend technologies such as JavaScript, HTML, and CSS, as well as backend technologies including Node.js, Express.js, and MySQL. I have every intention to continue on this journey of increasing my knowledge and skills when it comes to programming.I plan to do so through work experience and remaining dedicated to my own self-teachings. 
+                My current technological skills include frontend technologies such as JavaScript, React.js, HTML, and CSS, as well as backend technologies including Node.js, Express.js, and MySQL. I have every intention to continue on this journey of increasing my knowledge and skills when it comes to programming. I plan to do so by leveraging my skills in the workforce as part of a quality-driven team and remaining dedicated to my own self-teachings. 
               </p>
               <p>
-                That’s all you get for now, but feel free to contact me if you’d like to know more! Don’t forget to check out my projects below. Cheers!
+                That’s all you get for now, but feel free to contact me if you’d like to know anything else about me. Don’t forget to check out my projects. Cheers!
               </p>
             </div>
           </section>

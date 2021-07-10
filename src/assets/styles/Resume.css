@@ -2,16 +2,14 @@
 
 .resume {
   background: #222;
-  background-attachment: local;
-  height: 100vh;
-  background-size: 1450px 900px;
-
+  height: 2200px;
+  overflow-x: visible;
 }
 
 .skills {
   margin-left: 150px;
   position: relative;
-  top: 180px;
+  top: 190px;
 }
 
 .skills h1 {
@@ -84,6 +82,10 @@
   font-size: 55px;
 }
 
+.icon-bigger {
+  font-size: 90px;
+}
+
 .small-box {
   padding-top: 125px;
 }
@@ -103,19 +105,19 @@
 }
 
 .border-gradient-aqua {
-  border-image-source: linear-gradient(to left, chartreuse, aqua );
+  border-image-source: linear-gradient(to left, springgreen, aqua );
 }
 
 .border-gradient-violet {
-  border-image-source: linear-gradient(to left, yellow, mediumvioletred );
+  border-image-source: linear-gradient(to left, gold, palevioletred );
 }
 
 .border-gradient-red {
-  border-image-source: linear-gradient(to left, red, purple );
+  border-image-source: linear-gradient(to left, crimson, darkorchid );
 }
 
 .border-gradient-blue {
-  border-image-source: linear-gradient(to right, blue, orangered );
+  border-image-source: linear-gradient(to left, indianred, lightblue );
 }
 
 

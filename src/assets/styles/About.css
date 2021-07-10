@@ -2,8 +2,8 @@
 
 .hero-image {
   background-image: url(../images/hero-graphic.png);
-  height: 100vh;
-  background-size: cover;
+  background-size: contain;
+  background-attachment: initial;
 }
 
 h1 {
