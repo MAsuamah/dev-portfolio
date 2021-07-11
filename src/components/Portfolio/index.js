@@ -7,20 +7,19 @@ import Fade from 'react-reveal/Fade';
 function Portfolio() {
   return (
     <Fade delay={100}>
-    <section>
-      <div className="quote">
-        <h3>love of learning</h3>
-        <p>
-          is the most necessary passion . . . in it lies our happiness. <br />
-          It's a sure remedy for what ails us, an unending source of pleasure.
-          Develop a passion for learning. If you do, you will never cease to grow.
-        </p>
-        <p id="author">-Émilie du Châtelet & Anthony J. D'Angelo</p>
-      </div>
-      <div className="portfolio">
-
-        <div className="outer-grid">
-        
+      <section>
+        {/* Quote*/}
+        <div className="quote">
+          <h3>love of learning</h3>
+          <p>
+            is the most necessary passion . . . in it lies our happiness. <br />
+            It's a sure remedy for what ails us, an unending source of pleasure.
+            Develop a passion for learning. If you do, you will never cease to grow.
+          </p>
+          <p id="author">-Émilie du Châtelet & Anthony J. D'Angelo</p>
+        </div>
+        {/* Portfolio*/}
+        <div className="portfolio"> 
           <div className="grid">
             <figure className="effect-oscar">
             <img className="icon" src={require(`../../assets/images/zengxiao-lin-fBZsl463vJQ-unsplash.jpg`).default}></img>
@@ -85,13 +84,9 @@ function Portfolio() {
                 <p>MongDB | Express.js. | Node.js | React.js</p>
               </figcaption>     
             </figure>
-
-          </div>
-
+          </div>  
         </div>
-          
-      </div>
-    </section>
+      </section>
     </Fade>
   );
 }

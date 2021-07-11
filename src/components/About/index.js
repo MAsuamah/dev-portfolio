@@ -35,7 +35,7 @@ function About() {
 
   return (
     <div>
-       
+      {/* Hero Section */}
       <div className="hero-image">
         <img className="port-logo" src={require(`../../assets/images/portfolio-logo.png`).default}></img>
         
@@ -43,19 +43,16 @@ function About() {
           <Fade>    
           <h1 className="hero-tagline">Full Stack</h1>
           </Fade>
-
           <Fade delay={1000}>
           <h1 className="hero-tagline">Developer</h1>
           </Fade>
-
           <Fade delay={2000}>
           <div className="type-wrap">
             <span style={{ whiteSpace: 'pre' }} ref={el} />
           </div> 
           </Fade>
         </div>
-      
-
+        {/* About Section */}
         <Fade>
           <section className="about" id="about">
             <div className="inner-about">
@@ -67,17 +64,18 @@ function About() {
                 I’ve always loved problem-solving and logical reasoning (my fav subject is Math!), and I've been searching for a way to introduce that back into my everyday life, especially my career. I'm happy to say coding really fuels my passion for solving problems.
               </p>
               <p> 
-                I love blending my creativity and ability to quickly grasp concepts so that I can build applications that provide a remarkable user experience. I’m also able to apply these skills in team settings like when I worked with a small team to develop a CMS style restaurant application, that allows chain restaurant owners to manage their many restaurant locations.
+                I love blending my creativity and ability to quickly grasp concepts so that I can build applications that provide a remarkable user experience. I’m also able to apply these skills in team settings like when I worked with a small team to develop a CMS style restaurant app, that allows chain restaurant owners to manage their restaurant locations.
               </p>
               <p>
-                My current technological skills include frontend technologies such as JavaScript, React.js, HTML, and CSS, as well as backend technologies including Node.js, Express.js, and MySQL. I have every intention to continue on this journey of increasing my knowledge and skills when it comes to programming. I plan to do so by leveraging my skills in the workforce as part of a quality-driven team and remaining dedicated to my own self-teachings. 
+                My current technological skills include front-end technologies such as JavaScript, React, HTML, and CSS, as well as back-end technologies including Node.js, Express.js, MongoDB, and MySQL. I have every intention to continue on this journey of increasing my knowledge and skills when it comes to programming. I plan to do so by leveraging my skills in the workforce as part of a quality-driven team and remaining dedicated to my own self-teachings. 
               </p>
               <p>
-                That’s all you get for now, but feel free to contact me if you’d like to know anything else about me. Don’t forget to check out my projects. Cheers!
+                That’s all you get for now, but feel free to contact me if you’d like to know anything else. Don’t forget to check out my projects. Cheers!
               </p>
             </div>
           </section>
         </Fade>
+
       </div>
     </div>
   );

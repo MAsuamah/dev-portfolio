@@ -23,11 +23,6 @@
   font-family: 'Pangolin', cursive;
   font-size: 20px;
 }
-.container {
-  position: relative;
-  width: 50%;
-}
-
 
 /* ======== ICON STYLING =========== */
 
@@ -191,7 +186,7 @@ figure.effect-oscar:hover img {
   opacity: 0.4;
 }
 
-/*Media Queries */
+/*=========MEDIA QUERIES======*/
 
 @media only screen and (max-width: 1078px) {
   .grid {
