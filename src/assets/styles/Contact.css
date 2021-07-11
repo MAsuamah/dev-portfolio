@@ -92,10 +92,27 @@ form {
   font-size: 30px;
 }
 
+@media only screen and (max-width: 992px) {
+  form {
+    padding-right: 25px;
+  }
+}
+
 @media only screen and (max-width: 799px) {
   #right-contact {
     height: 500px;
   }
+}
+
+@media only screen and (max-width: 576px) {
+  #contact-container {
+    margin-left: 7px;
+    padding: 15px;
+  }
+
+  form {  
+    border-right: none;
+  } 
 }
 
 
