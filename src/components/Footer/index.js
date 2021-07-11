@@ -11,13 +11,13 @@ function Footer() {
     <footer>
       <h3>Let's Connect! <span className="wave">🤝</span></h3>
       <div className="connect-icons">
-        <a href="https://www.linkedin.com/in/michelle-asuamah/" target="_blank">
+        <a href="https://www.linkedin.com/in/michelle-asuamah/" target="_blank" rel="noreferrer">
           <FaLinkedin/> 
         </a>
-        <a href="https://github.com/MAsuamah" target="_blank">
+        <a href="https://github.com/MAsuamah" target="_blank" rel="noreferrer">
           <FiGithub/>
         </a>
-        <a href="https://codepen.io/masuamah" target="_blank">
+        <a href="https://codepen.io/masuamah" target="_blank" rel="noreferrer">
           <FaCodepen/>
         </a>
       </div>  

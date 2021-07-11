@@ -37,7 +37,7 @@ function About() {
     <div>
       {/* Hero Section */}
       <div className="hero-image">
-        <img className="port-logo" src={require(`../../assets/images/portfolio-logo.png`).default}></img>
+        <img className="port-logo" src={require(`../../assets/images/portfolio-logo.png`).default} alt="Michelle Asuamah"></img>
         
         <div className = "all-hero-text">
           <Fade>    
@@ -56,7 +56,7 @@ function About() {
         <Fade>
           <section className="about" id="about">
             <div className="inner-about">
-              <img src={require(`../../assets/images/geo-port.png`).default}></img>
+              <img src={require(`../../assets/images/geo-port.png`).default} alt="Michelle Asuamah"></img>
               <p> 
                 First off, thanks for visiting my page. I am a highly self-motivated developer with a certificate in full-stack web development from the University of Toronto. I also have a Bachelor’s in Psychology and Employment Relations.
               </p>
