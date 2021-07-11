@@ -4,6 +4,8 @@ import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import Fade from 'react-reveal/Fade';
 import { validateEmail } from '../../utils/helpers';
+import emailjs from 'emailjs-com';
+
 
 function Contact() {
 
@@ -12,15 +14,15 @@ function Contact() {
   const [errorMessage, setErrorMessage] = useState('');
   const { name, email, message } = formState;
 
-  function handleChange(e) {
+
+  const handleChange = (e) => {
     if (e.target.name === 'email') {
       const isValid = validateEmail(e.target.value);
-      console.log(isValid);
       if (!isValid) {
         setErrorMessage('Your email is invalid.');
       } else {
         setErrorMessage('');
-      } 
+      }
     } else {
       if (!e.target.value.length) {
         setErrorMessage(`${e.target.name} is required.`);
@@ -32,24 +34,34 @@ function Contact() {
       setFormState({ ...formState, [e.target.name]: e.target.value });
       console.log('Handle Form', formState);
     }
-    if (!errorMessage) {
-      setFormState({ ...formState, [e.target.name]: e.target.value });
-    }
-  }
+  };
 
-  function handleSubmit(e) {
+  function sendEmail(e) {
     e.preventDefault();
-    console.log(formState);
+
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID)
+      .then((result) => {
+          console.log(result.text);
+          e.target[0].value = '';
+          e.target[1].value = '';  
+          e.target[2].value = ''
+          setErrorMessage('Message sent!');
+      }, (error) => {
+          console.log(error.text);
+      });
+
+      
   }
 
   return (
+
     <Fade>
       <div className="mobile-contact">
       <section id="contact-container">
         <div className="row">
           <div id="left-contact" className="col-md-6 col-sm-12">
             <h3 id="hi">Say Hi <span className="wave">👋</span></h3>
-            <Form>
+            <Form onSubmit={sendEmail}>
               <Form.Group controlId="exampleForm.ControlInput1">
                 <Form.Control type="name" placeholder="Name" 
                 name="Name" 
@@ -73,7 +85,7 @@ function Contact() {
                   <p className="error-text">{errorMessage}</p>
                 </div>
               )}
-              <Button id="msg-btn" >Submit</Button>{' '}   
+              <Button id="msg-btn" type="submit">Submit</Button>{' '}   
             </Form>
           </div>
           <div id="right-contact" className="col-md-6 col-sm-12">
@@ -93,6 +105,7 @@ function Contact() {
       </section>
       </div>
     </Fade>
+    
   );
 }
 export default Contact;
