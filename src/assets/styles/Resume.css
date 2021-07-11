@@ -103,23 +103,43 @@
 /*BORDER GRADIENTS*/
 
 .border-gradient-pink-yellow {
-  border-image-source: linear-gradient(to right, #F5C15D, #F92F94 );
+  -moz-border-image: -moz-linear-gradient(to left, #f5c15d 0%, #f92f94 100%);
+  -webkit-border-image: -webkit-linear-gradient(to left, #f5c15d 0%, #f92f94 100% );
+  border-image: linear-gradient(to right, #f5c15d 0%, #f92f94 100%);
+  -webkit-border-image-slice: 2;
+  border-image-slice: 2;
 }
 
 .border-gradient-aqua {
-  border-image-source: linear-gradient(to left, springgreen, aqua );
+  -moz-border-image: -moz-linear-gradient(to left, springgreen 0%, aqua 100%);
+  -webkit-border-image: -webkit-linear-gradient(to left, springgreen 0%, aqua 100% );
+  border-image: linear-gradient(to right, springgreen 0%, aqua 100%);
+  -webkit-border-image-slice: 2;
+  border-image-slice: 2;
 }
 
 .border-gradient-violet {
-  border-image-source: linear-gradient(to left, gold, palevioletred );
+  -moz-border-image: -moz-linear-gradient(to left, gold 0%, palevioletred 100%);
+  -webkit-border-image: -webkit-linear-gradient(to left, gold 0%, palevioletred 100% );
+  border-image: linear-gradient(to right, gold 0%, palevioletred 100%);
+  -webkit-border-image-slice: 2;
+  border-image-slice: 2;
 }
 
 .border-gradient-red {
-  border-image-source: linear-gradient(to left, crimson, darkorchid );
+  -moz-border-image: -moz-linear-gradient(to left, crimson 0%, darkorchid 100%);
+  -webkit-border-image: -webkit-linear-gradient(to left, crimson 0%, darkorchid 100% );
+  border-image: linear-gradient(to right, crimson 0%, darkorchid 100%);
+  -webkit-border-image-slice: 2;
+  border-image-slice: 2;
 }
 
 .border-gradient-blue {
-  border-image-source: linear-gradient(to left, indianred, lightblue );
+  -moz-border-image: -moz-linear-gradient(to left, indianred 0%, lightblue 100%);
+  -webkit-border-image: -webkit-linear-gradient(to left, indianred 0%, lightblue 100% );
+  border-image: linear-gradient(to right, indianred 0%, lightblue 100%);
+  -webkit-border-image-slice: 2;
+  border-image-slice: 2;
 }
 
 /* MEDIA QUERIES */

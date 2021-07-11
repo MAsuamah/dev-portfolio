@@ -5,7 +5,7 @@ import { FiGithub } from 'react-icons/fi';
 
 function Footer() {
 
-  const style = { color: "#F92F94" }
+  const style = { color: "#f92f94" }
 
   return (
     <footer>
