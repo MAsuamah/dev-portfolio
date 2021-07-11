@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/dev-portfolio/static/css/main.d9a2d635.chunk.css",
+    "main.js": "/dev-portfolio/static/js/main.8e276ea3.chunk.js",
+    "main.js.map": "/dev-portfolio/static/js/main.8e276ea3.chunk.js.map",
+    "runtime-main.js": "/dev-portfolio/static/js/runtime-main.875a160d.js",
+    "runtime-main.js.map": "/dev-portfolio/static/js/runtime-main.875a160d.js.map",
+    "static/css/2.081f420c.chunk.css": "/dev-portfolio/static/css/2.081f420c.chunk.css",
+    "static/js/2.4dc78073.chunk.js": "/dev-portfolio/static/js/2.4dc78073.chunk.js",
+    "static/js/2.4dc78073.chunk.js.map": "/dev-portfolio/static/js/2.4dc78073.chunk.js.map",
+    "static/js/3.e8bc35c1.chunk.js": "/dev-portfolio/static/js/3.e8bc35c1.chunk.js",
+    "static/js/3.e8bc35c1.chunk.js.map": "/dev-portfolio/static/js/3.e8bc35c1.chunk.js.map",
+    "index.html": "/dev-portfolio/index.html",
+    "static/css/2.081f420c.chunk.css.map": "/dev-portfolio/static/css/2.081f420c.chunk.css.map",
+    "static/css/main.d9a2d635.chunk.css.map": "/dev-portfolio/static/css/main.d9a2d635.chunk.css.map",
+    "static/js/2.4dc78073.chunk.js.LICENSE.txt": "/dev-portfolio/static/js/2.4dc78073.chunk.js.LICENSE.txt",
+    "static/media/AdobeStock_127928024.jpeg": "/dev-portfolio/static/media/AdobeStock_127928024.a785d2f1.jpeg",
+    "static/media/Michelle-AsuamahResume.pdf": "/dev-portfolio/static/media/Michelle-AsuamahResume.b1c743b5.pdf",
+    "static/media/Navigation.css": "/dev-portfolio/static/media/bars-solid.e67f4a90.svg",
+    "static/media/budget.png": "/dev-portfolio/static/media/budget.2418b873.png",
+    "static/media/catherine-hughes-PkEQHH6R7Eg-unsplash.jpg": "/dev-portfolio/static/media/catherine-hughes-PkEQHH6R7Eg-unsplash.58ab1761.jpg",
+    "static/media/ecommerce.png": "/dev-portfolio/static/media/ecommerce.6002c609.png",
+    "static/media/geo-port.png": "/dev-portfolio/static/media/geo-port.24080d5b.png",
+    "static/media/About.css": "/dev-portfolio/static/media/hero-graphic.b38716fe.png",
+    "static/media/peinge-nakale-ie0YbSKO0fw-unsplash-copy.jpg": "/dev-portfolio/static/media/peinge-nakale-ie0YbSKO0fw-unsplash-copy.efc24a29.jpg",
+    "static/media/portfolio-logo.png": "/dev-portfolio/static/media/portfolio-logo.2699df45.png",
+    "static/media/zengxiao-lin-fBZsl463vJQ-unsplash.jpg": "/dev-portfolio/static/media/zengxiao-lin-fBZsl463vJQ-unsplash.ebed5496.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.875a160d.js",
+    "static/css/2.081f420c.chunk.css",
+    "static/js/2.4dc78073.chunk.js",
+    "static/css/main.d9a2d635.chunk.css",
+    "static/js/main.8e276ea3.chunk.js"
+  ]
+}
