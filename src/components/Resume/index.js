@@ -19,24 +19,24 @@ function Resume() {
 
         <svg width="0" height="0">
           <linearGradient id="pink-gradient" x1="100%" y1="100%" x2="0%" y2="0%">
-            <stop stopColor="pink" offset="0%" />
-            <stop stopColor="yellow" offset="100%" />
+            <stop stopColor="yellow" offset="0%" />
+            <stop stopColor="pink" offset="100%" />
           </linearGradient>
           <linearGradient id="aqua-gradient" x1="100%" y1="100%" x2="0%" y2="0%">
-            <stop stopColor="Chartreuse" offset="0%" />
-            <stop stopColor="aqua" offset="100%" />
+            <stop stopColor="aqua" offset="0%" />
+            <stop stopColor="chartreuse" offset="100%" />
           </linearGradient>
           <linearGradient id="violet-gradient" x1="100%" y1="100%" x2="0%" y2="0%">
-            <stop stopColor="gold" offset="0%" />
-            <stop stopColor="palevioletred" offset="100%" />
+            <stop stopColor="palevioletred" offset="0%" />
+            <stop stopColor="gold" offset="100%" />
           </linearGradient>
           <linearGradient id="red-gradient" x1="100%" y1="100%" x2="0%" y2="0%">
-            <stop stopColor="crimson" offset="0%" />
-            <stop stopColor="darkorchid" offset="100%" />
+            <stop stopColor="darkorchid" offset="0%" />
+            <stop stopColor="crimson" offset="100%" />
           </linearGradient>
           <linearGradient id="blue-gradient" x1="100%" y1="100%" x2="0%" y2="0%">
-            <stop stopColor="indianred" offset="0%" />
-            <stop stopColor="lightblue" offset="100%" />
+            <stop stopColor="lightblue" offset="0%" />
+            <stop stopColor="indianred" offset="100%" />
           </linearGradient>
         </svg>
 
