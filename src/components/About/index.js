@@ -44,7 +44,7 @@ function About() {
           <h1 className="hero-tagline">Full Stack</h1>
           </Fade>
           <Fade delay={1000}>
-          <h1 className="hero-tagline">Developer</h1>
+          <h1 className="hero-tagline dev">Developer</h1>
           </Fade>
           <Fade delay={2000}>
           <div className="type-wrap">

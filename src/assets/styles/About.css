@@ -66,14 +66,15 @@
 /*Media Queries */
 
 @media (max-width: 1018px) { 
+
   .port-logo{
    display: none;
  }
 
- .all-hero-text {
-   position: relative;
-   top: 50px;
- }
+ .type-wrap {
+  font-weight: 700;
+
+}
 
  .about {
   margin-top: 150px;
@@ -81,13 +82,31 @@
 }
 
 @media (max-width: 680px) { 
+
+  .hero-image {
+    background-image: url(../images/mobile-hero.png);
+    background-size: 100vh;
+  } 
+
   .hero-tagline {
-    font-size: 50px;
-    margin-left: 20px;
+    font-size: 140px;
+    margin-left: 15px;
+    font-weight: 800;
+  }
+
+  .dev {
+    font-size: 100px;
+  }
+
+  .all-hero-text {
+    position: relative;
+    top: 50px;
+    height: 100vh;
   }
 
   .type-wrap {
-    display: none;
+    font-size: 20px;
+    margin-left: 15px; 
   }
 
   .about {
@@ -95,7 +114,7 @@
     width: 95%;
     margin: 0 auto;
     margin-top: 50px;
-    padding: 0;
+    padding: 15px;
     box-shadow: none;
   }
 
@@ -105,5 +124,40 @@
 
   .about img {
     height: 250px
+  }
+}
+
+
+@media (max-width: 509px) { 
+
+  .hero-tagline {
+    font-size: 90px;
+  }
+
+  .dev {
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 457px) { 
+
+  .hero-tagline {
+    font-size: 100px;
+  }
+
+  .dev {
+    font-size: 75px;
+  }
+}
+
+@media (max-width: 408px) { 
+  .dev {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 386px) { 
+  .dev {
+    font-size: 50px;
   }
 }
