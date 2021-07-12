@@ -7,7 +7,7 @@ function Project(props) {
       <figure className="effect-oscar">
       <img className="icon" src={props.img} alt={props.alt}></img>
         <figcaption>
-          <h2>{props.title}<span>{props.span}</span> <br />
+          <h2 className="p-title">{props.title}<span>{props.span}</span> <br />
             <a href={props.link} target="_blank" rel="noreferrer"><FaLink /></a>
             <a href={props.github} target="_blank" rel="noreferrer"><FaGithub /></a>
           </h2>
