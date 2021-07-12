@@ -2,7 +2,7 @@ import React from 'react';
 import { FaLink } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 
-function Projects(props) {
+function Project(props) {
     return (
       <figure className="effect-oscar">
       <img className="icon" src={props.img} alt={props.alt}></img>
@@ -17,4 +17,4 @@ function Projects(props) {
     );
 }
 
-export default Projects;
+export default Project;
