@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/dev-portfolio/static/css/main.a12f8a34.chunk.css",
-    "main.js": "/dev-portfolio/static/js/main.c54ec2b3.chunk.js",
-    "main.js.map": "/dev-portfolio/static/js/main.c54ec2b3.chunk.js.map",
+    "main.css": "/dev-portfolio/static/css/main.b76f517c.chunk.css",
+    "main.js": "/dev-portfolio/static/js/main.e3595966.chunk.js",
+    "main.js.map": "/dev-portfolio/static/js/main.e3595966.chunk.js.map",
     "runtime-main.js": "/dev-portfolio/static/js/runtime-main.875a160d.js",
     "runtime-main.js.map": "/dev-portfolio/static/js/runtime-main.875a160d.js.map",
     "static/css/2.081f420c.chunk.css": "/dev-portfolio/static/css/2.081f420c.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.e8bc35c1.chunk.js.map": "/dev-portfolio/static/js/3.e8bc35c1.chunk.js.map",
     "index.html": "/dev-portfolio/index.html",
     "static/css/2.081f420c.chunk.css.map": "/dev-portfolio/static/css/2.081f420c.chunk.css.map",
-    "static/css/main.a12f8a34.chunk.css.map": "/dev-portfolio/static/css/main.a12f8a34.chunk.css.map",
+    "static/css/main.b76f517c.chunk.css.map": "/dev-portfolio/static/css/main.b76f517c.chunk.css.map",
     "static/js/2.478a8671.chunk.js.LICENSE.txt": "/dev-portfolio/static/js/2.478a8671.chunk.js.LICENSE.txt",
     "static/media/AdobeStock_127928024.jpeg": "/dev-portfolio/static/media/AdobeStock_127928024.a785d2f1.jpeg",
     "static/media/Michelle-AsuamahResume.pdf": "/dev-portfolio/static/media/Michelle-AsuamahResume.b1c743b5.pdf",
@@ -30,7 +30,7 @@
     "static/js/runtime-main.875a160d.js",
     "static/css/2.081f420c.chunk.css",
     "static/js/2.478a8671.chunk.js",
-    "static/css/main.a12f8a34.chunk.css",
-    "static/js/main.c54ec2b3.chunk.js"
+    "static/css/main.b76f517c.chunk.css",
+    "static/js/main.e3595966.chunk.js"
   ]
 }
