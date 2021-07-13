@@ -53,7 +53,7 @@ function About() {
           </Fade>
         </div>
         {/* About Section */}
-        <Fade>
+        
           <section className="about" id="about">
             <div className="inner-about">
               <img src={require(`../../assets/images/geo-port.png`).default} alt="Michelle Asuamah"></img>
@@ -74,7 +74,7 @@ function About() {
               </p>
             </div>
           </section>
-        </Fade>
+        
 
       </div>
     </div>
