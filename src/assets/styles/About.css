@@ -107,6 +107,7 @@
     top: 50px;
     height: 100vh;
     color: white;
+    text-align: center;
   }
 
   .type-wrap {
@@ -163,11 +164,5 @@
 @media (max-width: 408px) { 
   .dev {
     font-size: 60px;
-  }
-}
-
-@media (max-width: 386px) { 
-  .dev {
-    font-size: 50px;
   }
 }
