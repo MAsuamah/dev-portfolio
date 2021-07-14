@@ -23,7 +23,7 @@ My portfolio is a single page application built with react. The benefit of this 
 * React
 
 # Visit My Portfolio
-https://masuamah.github.io/dev-portfolio
+https://masuamah.dev
 
 ## Contributors
 Michelle Asuamah
