@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.8ca53c5a.chunk.css",
+    "main.css": "/static/css/main.f1e6a1cf.chunk.css",
     "main.js": "/static/js/main.ecba2b1e.chunk.js",
     "main.js.map": "/static/js/main.ecba2b1e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.32d6c122.js",
@@ -12,7 +12,7 @@
     "static/js/3.e8bc35c1.chunk.js.map": "/static/js/3.e8bc35c1.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.081f420c.chunk.css.map": "/static/css/2.081f420c.chunk.css.map",
-    "static/css/main.8ca53c5a.chunk.css.map": "/static/css/main.8ca53c5a.chunk.css.map",
+    "static/css/main.f1e6a1cf.chunk.css.map": "/static/css/main.f1e6a1cf.chunk.css.map",
     "static/js/2.478a8671.chunk.js.LICENSE.txt": "/static/js/2.478a8671.chunk.js.LICENSE.txt",
     "static/media/AdobeStock_127928024.jpeg": "/static/media/AdobeStock_127928024.a785d2f1.jpeg",
     "static/media/Michelle-AsuamahResume.pdf": "/static/media/Michelle-AsuamahResume.20c4f4ca.pdf",
@@ -20,7 +20,7 @@
     "static/media/catherine-hughes-PkEQHH6R7Eg-unsplash.jpg": "/static/media/catherine-hughes-PkEQHH6R7Eg-unsplash.58ab1761.jpg",
     "static/media/ecommerce.png": "/static/media/ecommerce.6002c609.png",
     "static/media/geo-port.png": "/static/media/geo-port.24080d5b.png",
-    "static/media/About.css": "/static/media/mobile-hero.dbcc2565.png",
+    "static/media/About.css": "/static/media/mobile-hero.c98b0c4f.png",
     "static/media/peinge-nakale-ie0YbSKO0fw-unsplash-copy.jpg": "/static/media/peinge-nakale-ie0YbSKO0fw-unsplash-copy.efc24a29.jpg",
     "static/media/portfolio-logo.png": "/static/media/portfolio-logo.2699df45.png",
     "static/media/zengxiao-lin-fBZsl463vJQ-unsplash.jpg": "/static/media/zengxiao-lin-fBZsl463vJQ-unsplash.ebed5496.jpg"
@@ -29,7 +29,7 @@
     "static/js/runtime-main.32d6c122.js",
     "static/css/2.081f420c.chunk.css",
     "static/js/2.478a8671.chunk.js",
-    "static/css/main.8ca53c5a.chunk.css",
+    "static/css/main.f1e6a1cf.chunk.css",
     "static/js/main.ecba2b1e.chunk.js"
   ]
 }
