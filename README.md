@@ -5,7 +5,8 @@ My personal dev portfolio showcasing my full stack applications projects.
 ## Built with React
 My portfolio is a single page application built with react. The benefit of this is that different components or "pages" can be rendered using the navigation bar without reloading the page.
 
-![screensshot-hero](https://user-images.githubusercontent.com/77217156/125207864-03e35c80-e25d-11eb-8571-4fd11705cf97.png)
+![screensshot-hero](https://user-images.githubusercontent.com/77217156/125827981-eee6c959-0ffb-45d2-b537-646be0ddacf5.png)
+
 
 ## Features
 * `About Me` section
