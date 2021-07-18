@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.eb6fce83.chunk.css",
-    "main.js": "/static/js/main.7a6f8ff8.chunk.js",
-    "main.js.map": "/static/js/main.7a6f8ff8.chunk.js.map",
+    "main.css": "/static/css/main.8ecbe925.chunk.css",
+    "main.js": "/static/js/main.387e78e4.chunk.js",
+    "main.js.map": "/static/js/main.387e78e4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2651d80b.js",
     "runtime-main.js.map": "/static/js/runtime-main.2651d80b.js.map",
     "static/css/2.081f420c.chunk.css": "/static/css/2.081f420c.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.059634c5.chunk.js.map": "/static/js/3.059634c5.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.081f420c.chunk.css.map": "/static/css/2.081f420c.chunk.css.map",
-    "static/css/main.eb6fce83.chunk.css.map": "/static/css/main.eb6fce83.chunk.css.map",
+    "static/css/main.8ecbe925.chunk.css.map": "/static/css/main.8ecbe925.chunk.css.map",
     "static/js/2.0c39d670.chunk.js.LICENSE.txt": "/static/js/2.0c39d670.chunk.js.LICENSE.txt",
     "static/media/AdobeStock_127928024.jpeg": "/static/media/AdobeStock_127928024.a785d2f1.jpeg",
     "static/media/Michelle-AsuamahResume.pdf": "/static/media/Michelle-AsuamahResume.20c4f4ca.pdf",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.2651d80b.js",
     "static/css/2.081f420c.chunk.css",
     "static/js/2.0c39d670.chunk.js",
-    "static/css/main.eb6fce83.chunk.css",
-    "static/js/main.7a6f8ff8.chunk.js"
+    "static/css/main.8ecbe925.chunk.css",
+    "static/js/main.387e78e4.chunk.js"
   ]
 }
