@@ -10,13 +10,10 @@ function Portfolio() {
       <section>
         {/* Quote*/}
         <div className="quote">
-          <h3>love of learning</h3>
+          <h3>Projects</h3>
           <p>
-            is the most necessary passion . . . in it lies our happiness. <br />
-            It's a sure remedy for what ails us, an unending source of pleasure.
-            Develop a passion for learning. If you do, you will never cease to grow.
+            Here are some of my favourite projects that I’ve worked on, provided with descriptions and links to each GitHub Repo and Deployed Site.
           </p>
-          <p id="author">-Émilie du Châtelet & Anthony J. D'Angelo</p>
         </div>
 
         {/* Portfolio*/}
