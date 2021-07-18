@@ -24,6 +24,7 @@ function Portfolio() {
         <div className="portfolio"> 
 
           <div className="grid">
+            
 
               <Project
                 img={require(`../../assets/images/zengxiao-lin-fBZsl463vJQ-unsplash.jpg`).default}
@@ -32,7 +33,7 @@ function Portfolio() {
                 span='Cup'
                 link='https://tech-cup-blog.herokuapp.com/'
                 github='https://github.com/MAsuamah/tech-cup-blog'
-                tech='MySQL | Express.js | Node.js'    
+                tech='MySQL | Express.js | Node.js'  
               />
               
             <Project 

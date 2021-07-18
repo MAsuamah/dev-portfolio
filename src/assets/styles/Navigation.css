@@ -20,12 +20,5 @@
   border-style: solid;
 }
 
-/* MEDIA QUERY */
-@media (max-width: 680px) { 
-  .my-name {
-    font-size: 20px;
-    color: black !important;    
-  }
-}
 
 

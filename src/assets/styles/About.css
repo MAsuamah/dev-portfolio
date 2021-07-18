@@ -22,6 +22,10 @@
   margin-top: 80px !important;
 }
 
+.mobile-intro {
+  display: none;
+}
+
 .type-wrap {
   margin-left: 72px;
   font-family: 'Alegreya Sans', sans-serif;
@@ -30,139 +34,136 @@
 }
 
 .about {
-  font-size: 25px;
-  background-color: #F5C15D ;
-  width: 80%;
-  margin: 0 auto;
+  background-color: #f3f3f1;
   margin-top: 50px;
-  padding: 40px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-left: 15px;
 }
 
-.about p{
-  overflow-x:visible;
-  text-align: left;
-  font-family: 'Alegreya Sans', sans-serif;
-  font-size: 19px;
+.about p {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
   font-weight: 400;
   line-height: 2;
-  text-indent: 40px;
 }
 
-.about img {
-  float: right;
-  margin: 0;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  height: 400px
+.about span {
+  font-weight: 900;
+  font-size: 30px;
 }
 
 .inner-about {
-  background-color: whitesmoke;
-  padding: 40px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+.inner-about p {
+  width: 30%;
+  margin: 15px;
+}
+
+.inner-about img {
+  width: 30%;
+  margin: 15px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 25px;
+}
+
 
 /*Media Queries */
 
+@media (max-width: 1200px) { 
+  .inner-about img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 1015px) { 
+  .inner-about p {
+    width: 100%;
+  }
+
+  .inner-about img {
+    width: 350px;
+    height: 350px;
+  }
+}
+
 @media (max-width: 1018px) { 
 
-  .port-logo{
-   display: none;
+  .hero-image{
+    background-image: none;
+  }
+
+  .flex-hero{
+   display: flex;
+   justify-content: center;
+  }
+
+ .hero-tagline{
+  font-family: 'Lato', sans-serif;
+  font-size: 75px;
+  text-align: center;
+  margin-left: 0;
  }
 
  .type-wrap {
-  font-weight: 700;
+    display: none;
+  }
 
-}
+  .mobile-intro {
+    display: inline;
+    font-family: 'Lato', sans-serif;
+    text-align: center; 
+  }
 
- .about {
+  .mobile-intro p {
+    margin-left: 50px; 
+    margin-right: 50px;
+    font-size: 30px; 
+    font-weight: 300;
+  }
+
+  #about-tag {
+    color: #f8049c ;
+  }
+
+  .about {
   margin-top: 150px;
- }
+  }
 }
 
 @media (max-width: 680px) { 
 
-  .hero-image {
-    background-image: url(../images/mobile-hero.png);
-    background-size: 100vh;
-  } 
-
-  .my-name {
-    color: black;
-  }
-
-  .hero-tagline {
-    font-size: 140px;
-    margin-left: 15px;
-    font-weight: 800;
-  }
-
-  .dev {
-    font-size: 100px;
-  }
-
-  .all-hero-text {
-    position: relative;
-    top: 50px;
-    height: 100vh;
-    color: white;
-    text-align: center;
-  }
-
-  .type-wrap {
-    font-size: 20px;
-    margin-left: 15px; 
-  }
-
   .about {
     font-size: 15px;
-    width: 95%;
-    margin: 0 auto;
-    margin-top: -90px;
-    padding: 15px;
-    box-shadow: none;
-    -webkit-animation: none !important;
-		-moz-animation: none !important;
-		-o-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
   }
 
   .inner-about {
-    padding: 10px;
-  }
-
-  .about img {
-    height: 250px
+    padding: 0;
+    margin: 0;
   }
 }
 
+@media (max-width: 500px) { 
 
-@media (max-width: 509px) { 
+  .port-logo {
+    height: 150px !important;
+  }
 
   .hero-tagline {
-    font-size: 90px;
-  }
-
-  .dev {
-    font-size: 90px;
-  }
-}
-
-@media (max-width: 457px) { 
-
-  .hero-tagline {
-    font-size: 100px;
-  }
-
-  .dev {
-    font-size: 75px;
-  }
-}
-
-@media (max-width: 408px) { 
-  .dev {
     font-size: 60px;
   }
+
+  .mobile-intro p {
+    font-size: 20px;
+  }
+
+  .inner-about img {
+    width: 150px;
+    height: 150px;
+  }
 }
+
