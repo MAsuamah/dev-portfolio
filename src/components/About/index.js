@@ -55,7 +55,7 @@ function About() {
           </Fade>
           <div className="mobile-intro">
             <p>
-              Hi Michelle, a passionate and dedicated Full Stack Developer. Scroll to read about me, then check out my projects  and résumé … after that let's connect!
+              Hi I'm Michelle, a passionate and dedicated Full Stack Developer. Scroll to read about me, then check out my projects  and résumé … after that let's connect!
             </p>
             <p id="about-tag">
               <HiOutlineArrowCircleDown /> About Me
