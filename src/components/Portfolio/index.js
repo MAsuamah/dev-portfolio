@@ -12,7 +12,7 @@ function Portfolio() {
         <div className="quote">
           <h3>Projects</h3>
           <p>
-            Here are some of my favourite projects that I’ve worked on, provided with descriptions and links to each GitHub Repo and Deployed Site.
+            Here are some of my favourite projects that I’ve worked on, provided with descriptions and links to each GitHub Repo and Deployed Site. Take a look!
           </p>
         </div>
 
