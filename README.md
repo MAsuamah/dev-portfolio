@@ -1,6 +1,6 @@
 # My Dev Portfolio
 
-My personal dev portfolio showcasing my full stack applications projects.  
+My personal dev portfolio showcasing my full stack application projects.  
 
 ## Built with React
 My portfolio is a single page application built with react. The benefit of this is that different components or "pages" can be rendered using the navigation bar without reloading the page.
