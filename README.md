@@ -3,7 +3,7 @@
 My personal dev portfolio showcasing my full stack application projects.  
 
 ## Built with React
-My portfolio is a single page application built with react. The benefit of this is that different components or "pages" can be rendered using the navigation bar without reloading the page.
+My portfolio is a single page mobile responsive application built with react. The benefit of this is that different components or "pages" can be rendered using the navigation bar without reloading the page.
 
 ![screensshot-hero (1)](https://user-images.githubusercontent.com/77217156/125828225-f5e5ffe0-7d15-492e-9493-e266b85fbd99.png)
 
