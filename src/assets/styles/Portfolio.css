@@ -115,25 +115,27 @@
   font-size: 68.5%;
 }
 
-figure.effect-oscar {
-  background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
-  background: linear-gradient(45deg, #22682a 0%,#9b4a1b 40%,#3a342a 100%);
+/*===============Effect============*/
+
+figure.effect-chico img {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(1.12);
+  transform: scale(1.12);
 }
 
-figure.effect-oscar img {
-  opacity: 0.9;
-  -webkit-transition: opacity 0.35s;
-  transition: opacity 0.35s;
+figure.effect-chico:hover img {
+  opacity: 0.5;
+  -webkit-transform: scale(1);
+  transform: scale(1);
 }
 
-figure.effect-oscar figcaption {
+figure.effect-chico figcaption {
   padding: 3em;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
-  -webkit-transition: background-color 0.35s;
-  transition: background-color 0.35s;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
 }
 
-figure.effect-oscar figcaption::before {
+figure.effect-chico figcaption::before {
   position: absolute;
   top: 30px;
   right: 30px;
@@ -141,43 +143,33 @@ figure.effect-oscar figcaption::before {
   left: 30px;
   border: 1px solid #fff;
   content: '';
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-figure.effect-oscar h2 {
-  margin: 20% 0 10px 0;
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s;
-  -webkit-transform: translate3d(0,100%,0);
-  transform: translate3d(0,100%,0);
-}
-
-figure.effect-oscar figcaption::before,
-figure.effect-oscar p {
+figure.effect-chico figcaption::before,
+figure.effect-chico p {
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: scale(0);
-  transform: scale(0);
 }
 
-figure.effect-oscar:hover h2 {
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
+figure.effect-chico h2 {
+  padding: 20% 0 20px 0;
 }
 
-figure.effect-oscar:hover figcaption::before,
-figure.effect-oscar:hover p {
+figure.effect-chico p {
+  margin: 0 auto;
+  max-width: 200px;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+figure.effect-chico:hover figcaption::before,
+figure.effect-chico:hover p {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
-}
-
-figure.effect-oscar:hover figcaption {
-  background-color: rgba(58,52,42,0);
-}
-
-figure.effect-oscar:hover img {
-  opacity: 0.4;
 }
 
 /*=========MEDIA QUERIES======*/

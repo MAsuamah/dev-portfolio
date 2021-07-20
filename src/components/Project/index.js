@@ -20,7 +20,7 @@ function Project(props) {
   }
 
     return (
-      <figure className="effect-oscar">
+      <figure className="effect-chico">
       <img className="icon" src={props.img} alt={props.alt}></img>
         <figcaption>
           <h2 className="p-title">{props.title}<span style={spanStyle}>{props.span}</span> <br />
