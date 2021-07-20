@@ -7,6 +7,12 @@ My portfolio is a single page mobile responsive application built with react. Th
 
 ![screensshot-hero (1)](https://user-images.githubusercontent.com/77217156/125828225-f5e5ffe0-7d15-492e-9493-e266b85fbd99.png)
 
+-Desktop Hero
+
+<img src="https://user-images.githubusercontent.com/77217156/126337968-e4447d14-ac79-459c-8968-c3b169542b20.jpg" alt="mobile-hero" height="500" />
+-Mobile Hero
+
+
 
 ## Features
 * `About Me` section
