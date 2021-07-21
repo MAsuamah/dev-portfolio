@@ -85,10 +85,10 @@ function Portfolio() {
               alt= 'a shopping cart resting on a laptop keyboard'
               title='Shop'
               span='Shop'
-              link='https://masuamah-shop-shop.herokuapp.com/'
-              github='https://github.com/MAsuamah/shop-shop'
-              tech='MongDB | Express.js. | Node.js | React.js'
-              description='An E-commerce website that uses Global State and stripe to provide an easy, reliable and secure check out experience for customers.'    
+              link='https://masuamah-shop-shop-redux.herokuapp.com/'
+              github='https://github.com/MAsuamah/shop-shop-redux'
+              tech='MERN Stack | Redux | Stripe'
+              description='An E-commerce website that uses Redux to handle Global State and stripe to provide an easy, reliable and secure check out experience for customers.'    
             />
 
           </div>  
