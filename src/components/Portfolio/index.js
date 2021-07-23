@@ -6,15 +6,17 @@ import Project from "../Project";
 function Portfolio() {
   return (
     
-    <Fade >
+    
       <section>
         {/* Quote*/}
-        <div className="quote">
-          <h3>Projects</h3>
-          <p>
-            Here are some of my favourite projects that I’ve worked on, provided with descriptions and links to each GitHub Repo and Deployed Site. Take a look!
-          </p>
-        </div>
+        <Fade >
+          <div className="quote">
+            <h3>Projects</h3>
+            <p>
+              Here are some of my favourite projects that I’ve worked on, provided with descriptions and links to each GitHub Repo and Deployed Site. Take a look!
+            </p>
+          </div>
+        </Fade>
 
         {/* Portfolio*/}
 
@@ -94,7 +96,6 @@ function Portfolio() {
           </div>  
         </div>
       </section>
-    </Fade>
   );
 }
 export default Portfolio;
