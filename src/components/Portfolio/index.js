@@ -87,8 +87,8 @@ function Portfolio() {
               alt= 'books sitting in a bookshelf'
               title='Book'
               span='It'
-              link='https://masuamah.github.io/coding-quiz/'
-              github='https://github.com/MAsuamah/coding-quiz'
+              link='https://masuamah-book-it.herokuapp.com/'
+              github='https://github.com/MAsuamah/book-it'
               tech='MongoDB| Express.js | React.js | Node.js' 
               description= "A book search engine with a simple user interface that can be used to find your next read. Save and keep track of books you'd like to read in the future to create your own virtual 'To Read' catalogue."   
             />
