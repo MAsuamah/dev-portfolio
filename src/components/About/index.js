@@ -1,6 +1,5 @@
 import React from 'react'
 import "../../assets/styles/About.css"
-import Fade from 'react-reveal/Fade';
 import Typed from 'typed.js';
 import { HiOutlineArrowCircleDown } from 'react-icons/hi';
 
@@ -42,17 +41,11 @@ function About() {
           <img className="port-logo" src={require(`../../assets/images/portfolio-logo.png`).default} alt="Michelle Asuamah"></img>
         </div>
         <div className = "all-hero-text">
-          <Fade>    
             <h1 className="hero-tagline">Full Stack</h1>
-          </Fade>
-          <Fade delay={1000}>
             <h1 className="hero-tagline dev">Developer</h1>
-          </Fade>
-          <Fade delay={2000}>
             <div className="type-wrap">
               <span style={{ whiteSpace: 'pre' }} ref={el} />
             </div> 
-          </Fade>
           <div className="mobile-intro">
             <p>
               Hi I'm Michelle, a passionate and dedicated Full Stack Developer. Scroll to read about me, then check out my projects  and résumé … after that let's connect!
