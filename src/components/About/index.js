@@ -19,7 +19,7 @@ function About() {
       ],
       typeSpeed: 75,
       backSpeed: 50,
-      startDelay: 3100,
+      startDelay: 1500,
       loop: true
     };
     
@@ -41,9 +41,10 @@ function About() {
           <img className="port-logo" src={require(`../../assets/images/portfolio-logo.png`).default} alt="Michelle Asuamah"></img>
         </div>
         <div className = "all-hero-text">
-            <h1 className="hero-tagline">Full Stack</h1>
-            <h1 className="hero-tagline dev">Developer</h1>
-            <div className="type-wrap">
+            <h1 className="hero-tagline">
+              Full Stack<br/>Developer
+            </h1>
+           <div className="type-wrap">
               <span style={{ whiteSpace: 'pre' }} ref={el} />
             </div> 
           <div className="mobile-intro">
