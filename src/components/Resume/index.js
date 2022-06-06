@@ -49,7 +49,7 @@ function Resume() {
           </Fade>
         
           <div className="resume-container">
-            <a id="download-link" href={require("../../assets/files/Michelle-AsuamahResume.pdf" ).default} download>
+            <a id="download-link" href={require("../../assets/files/Michelle-Asuamah-Resume-22.pdf" ).default} download>
               <Fade>
                 <div className="download-box border-gradient resume-gradient border-gradient-pink-yellow">    
                     Download Resume<TiArrowDownOutline style={{ fill: "url(#pink-gradient)" }}/>
